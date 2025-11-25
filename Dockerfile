@@ -9,6 +9,7 @@ RUN apt update && \
         wget \
         gcc-riscv64-unknown-elf \
         python3 \
+        git \
         cmake && \
     rm -rf /var/lib/apt/lists/*
 
